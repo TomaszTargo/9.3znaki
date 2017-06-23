@@ -8,5 +8,7 @@ var dinosaurUpperCased = dinosaur.toUpperCase();
 console.log(dinosaurUpperCased);
 
 //zamiana ciągu znaków z zadeklarowanego ciągu znaków na inny 'replace'
-var textVelociraptorAfter = text.replace('Velociraptor', 'Dinosaur');
+var textVelociraptorAfter = text.replace('Velociraptor', dinosaurUpperCased);
 console.log(textVelociraptorAfter);
+
+console.log(textVelociraptorAfter.length/2);
